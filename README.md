@@ -1,5 +1,5 @@
 # Spring-mass Simulator
-A simulation of a spring-mass system using the VPython module. This simple simulation describes Hooke's law with/without damping.
+This simple simulation describes Hooke's law with/without damping.
 
 ## Requirements
 ### Operating System
@@ -18,3 +18,16 @@ A simulation of a spring-mass system using the VPython module. This simple simul
    - Go to your search window
    - Type `cmd` and open the terminal
    - Enter `pip install vpython`
+   
+## Usage
+1. Run the script
+   - Go to your search window
+   - Type `cmd` and open the terminal
+   - `cd` to the installed directory
+   - Type `python shm_sim.py`
+   
+2. Specify the mass of the sphere
+
+3. Specify the spring coefficient
+
+4. Specify the viscous damping coefficient
