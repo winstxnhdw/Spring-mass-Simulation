@@ -7,11 +7,9 @@ A simulation of a spring-mass system using the VPython module. This simple simul
 - Any operating system
 
 ### Software 
-1. [Python 3.7](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe)
+[Python 3.7](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe)
    - [pip](https://pypi.org/project/pip/)
    - [VPython](https://vpython.org/)
-
-2. Python IDE (optional for beginners)
   
 ## Installation for Windows 10
 1. Install [Python 3.7](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe)
