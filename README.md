@@ -16,8 +16,7 @@ A simulation of a spring-mass system using the VPython module. This simple simul
 ## Installation for Windows 10
 1. Install [Python 3.7](https://www.python.org/ftp/python/3.7.7/python-3.7.7-amd64.exe)
 
-### If you do not have Git installed
-1. Install [VPython](https://vpython.org/presentation2018/install.html)
+2. Install [VPython](https://vpython.org/presentation2018/install.html)
    - Go to your search window
    - Type `cmd` and open the terminal
    - Enter `pip install vpython`
