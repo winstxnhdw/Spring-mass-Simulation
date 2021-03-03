@@ -1,5 +1,5 @@
 # Spring-mass Simulator
-![system](screenshots/spring-mass-sys.gif)
+![system](demo/spring-mass-sys.gif)
 
 ## Abstract
 This simple simulation describes Hooke's law with/without damping.
