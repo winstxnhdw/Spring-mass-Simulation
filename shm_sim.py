@@ -6,7 +6,7 @@ class Spring:
         
         # Simulation parameters
         time = 0
-        dt = 0.05
+        dt = 1/60
         duration = 3600
         frameRate = 1 / dt
         pivot = vector(-10,0,0)
