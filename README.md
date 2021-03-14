@@ -1,6 +1,6 @@
 # Spring-mass Simulator
 
-<div align="center">
+<div align="left">
   <img src="demo/spring-mass-sys.gif" \>
 </div>
 
