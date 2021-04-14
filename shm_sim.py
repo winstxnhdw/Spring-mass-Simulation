@@ -5,12 +5,12 @@ class Spring:
     def __init__(self, mass, k, kd):
         
         # Simulation parameters
-        time = 0
-        dt = 1/60
-        duration = 3600
-        frameRate = 1 / dt
-        pivot = vector(-10,0,0)
-        equilibrium = vector(0,0,0)
+        self.time = 0
+        self.dt = 1/60
+        self.duration = 3600
+        self.frameRate = 1 / dt
+        self.pivot = vector(-10,0,0)
+        self.equilibrium = vector(0,0,0)
         
         # Ball parameters
         ballPosition = vector(10, 0, 0)
@@ -25,10 +25,6 @@ class Spring:
         springThickness = 0.1
         springColour = color.red
         self.spring = helix(pos=pivot, axis=springAxis, radius=springRadius, coils=springCoils, constant=k, thickness=springThickness, color=springColour)
-        
-        while time <= duration:
-            rate(frameRate)
-            time = self.motion(k, kd, time, dt, equilibrium)
         
     def motion(self, k, kd, currentTime, dt, equilibrium):
         
@@ -54,11 +50,15 @@ def main():
         k = float(input("Spring constant: "))
         kd = float(input("Viscous damping coefficient: "))
         
-    except:
+    except ValueError:
         print("Invalid input.")
         main()
     
     physics = Spring(mass, k, kd)
+
+    while physics.time <= physics.duration:
+        rate(physics.frameRate)
+        physics.time = physics.motion(k, kd, physics.time, physics.dt, physics.equilibrium)
 
 if __name__ == "__main__":
     main()
