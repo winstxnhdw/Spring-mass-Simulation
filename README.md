@@ -7,6 +7,9 @@
 ## Abstract
 This simple simulation describes Hooke's law with/without damping.
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/winstxnhdw/SpringSim.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/winstxnhdw/SpringSim/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/winstxnhdw/SpringSim.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/winstxnhdw/SpringSim/context:python)
+
 ## Requirements
 ### Operating System
 - Windows 10 
